@@ -1,3 +1,5 @@
+package br.com.etechoracio.model;
+
 public class Colmeia {
 
     private Abelha abelha1;

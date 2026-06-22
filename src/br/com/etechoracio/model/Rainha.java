@@ -1,3 +1,5 @@
+package br.com.etechoracio.model;
+
 public class Rainha extends Abelha {
     private int ovosPorDia;
 

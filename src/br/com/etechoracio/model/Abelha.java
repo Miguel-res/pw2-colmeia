@@ -1,4 +1,9 @@
-public class Abelha {
+package br.com.etechoracio.model;
+
+import br.com.etechoracio.interfaces.Coleta;
+import br.com.etechoracio.interfaces.Defender;
+
+public abstract class Abelha{
     private String nome;
     private int idadeDias;
 
@@ -34,4 +39,6 @@ public class Abelha {
         System.out.println("Consumo diário: " + consumoDiario() + "mg");
 
     }
+
+
 }
